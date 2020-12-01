@@ -39,6 +39,10 @@
             font-family: "Playlist Orm";
         }
         
+        .normal {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
         .content {
             font-family: "Playlist", Arial, Helvetica, sans-serif;
             display: flex;
@@ -66,16 +70,10 @@
             font-weight: lighter;
             text-align: center;
         }
-        .button {
-          font: bold 11px;
-          text-decoration: none;
-          background-color: #EEEEEE;
-          color: #333333;
-          padding: 2px 6px 2px 6px;
-          border-top: 1px solid #CCCCCC;
-          border-right: 1px solid #333333;
-          border-bottom: 1px solid #333333;
-          border-left: 1px solid #CCCCCC;
+
+        .map {
+          font-size: 5rem;
+           
         }
     </style>
 </head>
@@ -99,10 +97,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="column">On the evening of December 6th 2020 Sunday</div>
+            <div class="column">December 6th 2020 Sunday</div>
         </div>
-         <div class="row">
-             <div class="column">at <a class="button" href="https://goo.gl/maps/W24UbsbDbN98PrSf6">NKM Convention Center, Ailassery, Kalikavu</a></div>
+         <div class="row caps">
+           <div class="column" style="font-size: 2.2rem;">
+               NKM Convention Center, Ailassery, Kalikavu
+           </div>
+        </div>
+        <div class="row">
+            <div class="column">
+               <a class="map" href="https://goo.gl/maps/W24UbsbDbN98PrSf6">🗺️</a>
+            </div>
         </div>
     </div>
 </body>
